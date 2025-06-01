@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- icone bootstrap -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-lg bg-dark position-fixed top-0">
+   <div class="container-fluid">
+    <a class="navbar-brand text-white" href="#">Blog Cinema</a>
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Chi siamo</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contatti</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success text-white" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<header class="container-fluid">
+<div class="row vh-100 justify-content-center align-items-center">
+    <div class="col-12">
+<h1 class="text-white text-center">Blog Cinema</h1>
+    </div>
+</div>
+</header>
+
+<section class="container">
+   <div class="row justify-content-center">
+    <div class="col-12 text-white text-center my-5">
+        <h2>Scelti per te</h2>
+    </div>
+    <div class="col-12 col-md-4 d-flex justify-content-center">
+        <div class="card bg-dark text-white" style="width: 18rem;">
+  <img src="./media/cinemahorror.jpg" class="card-img-top" alt="film horror">
+  <div class="card-body">
+    <h5 class="card-title">The Nun</h5>
+    <p class="card-text">Un prete con un burrascoso passato alle spalle e una giovane novizia sulla soglia dei voti vengono mandati in Romania dal Vaticano per far luce sulla morte di una giovane suora di clausura. Dovranno affrontare la forza malvagia nella forma di una monaca demoniaca</p>
+    <a href="https://www.youtube.com/watch?v=i-q-3oTmTfw" class="btn btn-outline-success" target="_blank">Vai al trailer</a>
+  </div>
+</div>
+    </div>
+    <div class="col-12 col-md-4 d-flex justify-content-center">
+        <div class="card bg-dark text-white" style="width: 18rem;">
+  <img src="./media/cinemamaccio.jpg" class="card-img-top" alt="maccio capatonda">
+  <div class="card-body">
+    <h5 class="card-title">Il migliore dei mondi</h5>
+    <p class="card-text">Ennio Storto, come il mondo, vive immerso nella tecnologia. Un giorno però si sveglia nel 2023 di un universo parallelo dove il progresso tecnologico è fermo agli anni '90. </p>
+    <a href="https://www.youtube.com/watch?v=Y0DM3_cNjII" class="btn btn-outline-success" target="_blank">Vai al trailer</a>
+  </div>
+</div>
+    </div>
+    <div class="col-12 col-md-4 d-flex justify-content-center">
+        <div class="card bg-dark text-white" style="width: 18rem;">
+  <img src="./media/cinemaken.jpg" class="card-img-top" alt="ken il guerriero">
+  <div class="card-body">
+    <h5 class="card-title">Ken il Guerriero - Il Film</h5>
+    <p class="card-text">Ken Il Guerriero, diretto da Toyoo Ashida, è il primo film sul guerriero della scuola di Hokuto. Ken si ritrova di fronte una tragedia quando attraversa le terre colpite dall'olocausto nucleare, che distrutto tutto e portato l'umanità a vivere oppressa dai potenti in una landa desolata e infruttuosa.</p>
+    <a href="https://www.youtube.com/watch?v=hiSQ-n7xrfg" class="btn btn-outline-success" target="_blank">Vai al trailer</a>
+  </div>
+</div>
+    </div>
+   </div> 
+</section>
+
+<section class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-white text-center my-5">
+        <h2>
+            Iscriviti alla nostra Newsletter</h2>
+      </div> 
+      <div class="col-12 col-md-4">
+        <form class="bg-secondary rounded-4 p-4 ">
+  <div class="mb-3 text-white">
+    <label for="exampleInputEmail1" class="form-label">Indirizzo Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text text-white">Non condividere la tua e-mail con nessuno.</div>
+  </div>
+  <div class="mb-3 text-white">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check text-white">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Ricordami</label>
+  </div>
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Invia</button>
+</form>
+      </div> 
+    </div>
+</section>
+
+<footer class="container-fluid">
+  <div class="row text-white justify-content-around footer-custom bg-secondary mt-5 align-items-center">
+    <div class="col-12 col-md-3 d-flex justify-content-center list-footer">
+
+       <p>Cinema per tutti</p>
+    </div>
+    <div class="col-12 md-3">
+        <ul>
+            <li>P.IVA 07647440721</li>
+            <li>Blog a cura di Andrea Caocci</li>
+            <li>Richiedi il tuo titolo preferito tramite la nostra mail 
+                <a href="mailto:cinemapertutti@gmail.com">cinemapertutti@gmail.com</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-12 md-3 d-flex justify-content-center list-footer">
+        <p>Seguici sui social</p>
+        <ul>
+            <li><i class="bi bi-facebook"></i></li>
+            <li><i class="bi bi-instagram"></i></li>
+            <li><i class="bi bi-twitter"></i></li>
+        </ul>
+    </div>
+  </div> 
+</footer>
+
+
+
+
+
+
+
+<!-- Modale -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Benvenuto nella nostra Newsletter</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Grazie per esserti iscritto alla nostra newsletter! Riceverai aggiornamenti sui nostri ultimi articoli, recensioni di film e molto altro ancora. Resta sintonizzato per le nostre prossime comunicazioni.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Chiudi</button>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </body>
+</html>

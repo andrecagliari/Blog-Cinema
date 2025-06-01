@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+h1{
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+
+header{
+       background: linear-gradient(transparent, black), url(../media/cinema1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav{
+    z-index: 999;
+}
+
+.footer-custom{
+    height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+
+    }
+    h1{
+        font-size: 30px;
+    }
+
+    .list-footer{
+justify-content: start !important;
+    }
+    
