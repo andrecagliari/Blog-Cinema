@@ -8,7 +8,7 @@ h1{
 }
 
 header{
-       background: linear-gradient(transparent, black), url(../media/cinema1.jpg);
+    background: linear-gradient(transparent, black), url(../media/cinema1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -24,6 +24,7 @@ nav{
 .footer-custom{
     height: 300px;
 }
+
 
 @media screen and (max-width: 600px) {
 
